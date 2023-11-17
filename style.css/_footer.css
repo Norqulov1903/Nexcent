@@ -1,0 +1,128 @@
+footer{
+    width: 100%;
+ 
+    background:  #263238;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+  
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer__logo{
+    width: 350px;
+    height: 190px;
+
+}
+.footer__logo p{
+    color:  #F5F7FA;
+    font-family: Inter;
+    font-size: 14px;
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+
+.footer__logo__icon{
+    margin-top: 40px;
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer__logo__icon a{
+    display: block;
+ transition: all 1s;
+    margin-right: 16px;
+}
+.footer__logo__icon a:hover{
+    transform: scale(1.2);
+}
+.footer__nav
+{
+    width: 666px;
+    height: 200px;
+    
+    display: flex;
+  
+    justify-content: space-evenly;
+ 
+}
+.footer__nav_card{
+    width: 160px;
+}
+.footer__nav_email{
+    width: 300px;
+}
+.footer__nav_card h6{
+     color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; 
+}
+.footer__nav_card ul{
+    list-style: none;
+    margin-top: 17px;
+  
+}
+.footer__nav_card ul li a{
+    display: block;
+    text-decoration: none;
+    color:  #F5F7FA;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    transition: all 1s;
+    padding: 5px;
+}
+.footer__nav_card ul li a:hover{
+    color: #4CAF4F;
+}
+.footer__nav_email h4{
+    color:  #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; 
+}
+.fotter__form{
+    background-color: #515B60;
+    border-radius: 40px;
+}
+.footer__nav_email input{
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+.fotter__form{
+    width:300px;
+    height: 40px;
+
+    margin-top: 24px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+   
+    justify-content: space-evenly;
+}
+.footer__nav_email input::placeholder{
+    color: #717171;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    padding-left: 12px;
+    line-height: 20px; 
+}
+.fotter__form img{
+    color: white;
+}

@@ -1,0 +1,118 @@
+@import url("./style.css/_header.css");
+@import url("./style.css/_main.css");
+@import url("./style.css/_footer.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    width: 100%;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+.container{
+   max-width: 1152px;
+   width: 100%;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin: auto;
+   height: auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+  
+   
+ 
+}
+
+
+@media screen and (max-width : 1448px) {
+  
+}
+@media screen and (max-width : 960px) {
+    .main_eu h1{
+        width: 100%;
+    }
+}
+@media screen and (max-width : 886px) {
+    .footer__nav{
+        margin-top: 20px;
+        /* margin-left: 50px; */
+        flex-wrap: wrap;
+    }
+    .footer__nav{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        height: auto;
+        text-align: center;
+    }
+    .footer__logo{
+        margin-left: 50px;
+        margin: auto;
+        text-align: center;
+    }
+    .main_eu button{
+        margin-bottom: 40px;
+    }
+    .footer__logo__icon{
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width : 711px) {
+    
+}
+@media screen and (max-width : 656px) {
+    .footer__nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer__nav_email{
+        margin-top: 20px;
+    }
+    .main__tim__description{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .mian__tim__card{
+        margin-top: 30px;
+       margin-bottom: 60px;
+    }
+    .main__years__img img{
+        width: 300px;
+        height: 320px;
+    }
+    .main__how__img img{
+        width: 300px;
+        height: 320px;
+    }
+}
+@media screen and (max-width : 800px) {
+  
+}
+@media screen and (max-width : 425px) {
+    .footer__nav{
+        margin-left: 0px;
+    }
+    
+    .main__years__img img{
+        width: 300px;
+        height: 320px;
+    }
+    .main__how__img img{
+        width: 300px;
+        height: 320px;
+    }
+    .main__years__img{
+        height: auto;
+    }
+}
+@media screen and (max-width : 320px) {
+  
+}
+
