@@ -7,9 +7,10 @@ header{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 20px;
+    
 }
 nav{
     max-width: 588px;
@@ -32,11 +33,10 @@ nav ul li a{
     font-style: normal;
     font-weight: 400;
     line-height: 24px; 
-    transition: all 1s;
+    transition: all 0.3s;
 }
 nav ul li a:hover{
     color: #4CAF4F;
-    text-decoration: underline;
 }
 .login{
     max-width: 220px;
@@ -60,6 +60,7 @@ nav ul li a:hover{
     transition: all 1s;
     line-height: 20px; 
     border-radius: 6px;
+    cursor: pointer;
 }
 .login button:hover{
     border-radius: 6px;
@@ -113,7 +114,7 @@ nav ul li a:hover{
     font-size: 64px;
     font-style: normal;
     font-weight: 600;
-    line-height: 76px; 
+
 }
 .hedaer__about__inner__title .yellow{
     color: #4CAF4F;
@@ -121,7 +122,7 @@ nav ul li a:hover{
     font-size: 64px;
     font-style: normal;
     font-weight: 600;
-    line-height: 76px;
+
 }
 .hedaer__about__inner__title p{
     color:  #717171;
@@ -146,6 +147,7 @@ nav ul li a:hover{
     font-style: normal;
     font-weight: 500;
     line-height: 24px; 
+    cursor: pointer;
     transition: all 1s;
 }
 .hedaer__about__inner__title button:hover{
@@ -231,7 +233,7 @@ nav ul li a:hover{
         padding-top: 20px;
     }
     .hedaer__about__inner__title{
-        margin-left: 60px;
+        margin-left: 20px;
     }
     
     .hedaer__about{
@@ -274,6 +276,7 @@ nav ul li a:hover{
         width: 100%;
         flex-wrap: nowrap;
     }
+   
 
 
     .hedaer__about__inner__title h1{
@@ -320,6 +323,9 @@ nav ul li a:hover{
         
         
 }
+.main__tim__description{
+    margin-bottom: 30px;
+}
 nav ul li{
     display: inline-block;
 }
@@ -342,6 +348,9 @@ nav ul li a {
         overflow: auto;
 
         
+}
+.main__tim__description{
+    margin-bottom: 30px;
 }
 nav ul li{
     display: inline-block;

@@ -1,11 +1,7 @@
 footer{
     width: 100%;
- 
+    height: auto;
     background:  #263238;
-   display: flex;
-   align-items: center;
-   justify-content: space-evenly;
-  
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -26,16 +22,25 @@ footer{
 
 .footer__logo__icon{
     margin-top: 40px;
-    display: flex;
     width: 200px;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 .footer__logo__icon a{
     display: block;
- transition: all 1s;
+ transition: all 0.3s;
     margin-right: 16px;
+}
+.footer__inner{
+    max-width: 1152px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .footer__logo__icon a:hover{
     transform: scale(1.2);
@@ -44,10 +49,8 @@ footer{
 {
     width: 666px;
     height: 200px;
-    
     display: flex;
-  
-    justify-content: space-evenly;
+    justify-content: space-between;
  
 }
 .footer__nav_card{
@@ -100,6 +103,7 @@ footer{
     outline: none;
     background-color: transparent;
     border: none;
+  
 }
 .fotter__form{
     width:300px;
@@ -109,20 +113,27 @@ footer{
     border-radius: 8px;
     display: flex;
     align-items: center;
-   
-    justify-content: space-evenly;
+   padding-left: -20px;
+   padding-right: 20px;
+    justify-content: space-between;
+}
+.footer__nav_email input{
+    margin-left: 20px;
+    color: white;
 }
 .footer__nav_email input::placeholder{
-    color: #717171;
+    color: white;
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     border: none;
     outline: none;
-    padding-left: 12px;
+ 
     line-height: 20px; 
 }
 .fotter__form img{
     color: white;
+    cursor: pointer;
+  
 }
